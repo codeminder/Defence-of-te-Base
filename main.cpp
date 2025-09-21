@@ -15,6 +15,7 @@ static float resourceTimer = 0.0f;
 float scale = 1.0f;
 float playerSpeed = 100.0f;
 
+
 unordered_map<string, unordered_map<string, string>> translations;
 std::string currentLanguage = "en";
 std::string t(const std::string& key) {
